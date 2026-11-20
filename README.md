@@ -33,8 +33,8 @@
         <li>🏆 <b>Distinctions:</b> Laureate and finalist in NASA, NASK, CISPA, and Consult IT cybersecurity challenges.</li>
       </ul>
     </td>
-    <td width="40%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KarolMrozinski&layout=donut&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&text_color=94a3b8" width="100%" />
+    <td width="45%" align="center">
+      <img src="https://quickchart.io/chart?bkg=%230f172a&c={type:'doughnut',data:{labels:['Rust','C%2B%2B','eBPF','Ada%2FSPARK','VHDL'],datasets:[{data:[35,25,15,15,10],backgroundColor:[%27%23cea75d%27,%27%2300599c%27,%27%231d63ed%27,%27%2338bdf8%27,%27%235c2d91%27],borderWidth:0}]},options:{plugins:{legend:{position:%27right%27,labels:{color:%27%2394a3b8%27,font:{size:11,family:%27Fira%20Code%27}}}},cutout:%2765%25%27}}" width="100%" alt="Core Engineering Focus" />
     </td>
   </tr>
 </table>
