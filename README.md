@@ -33,8 +33,8 @@
         <li>🏆 <b>Distinctions:</b> Laureate and finalist in NASA, NASK, CISPA, and Consult IT cybersecurity challenges.</li>
       </ul>
     </td>
-    <td width="48%" align="center" style="vertical-align: middle;">
-      <img src="https://quickchart.io/chart?bkg=%230f172a&c={type:'doughnut',data:{labels:['Rust','C%2B%2B23','eBPF','Ada%2FSPARK','VHDL'],datasets:[{data:[35,25,15,15,10],backgroundColor:[%27%23D97706%27,%27%2338BDF8%27,%27%2310B981%27,%27%23A855F7%27,%27%2364748B%27],borderColor:%27%230F172A%27,borderWidth:3}]},options:{plugins:{legend:{position:%27right%27,labels:{color:%27%23CBD5E1%27,boxWidth:10,usePointStyle:true,pointStyle:%27rectRounded%27,font:{size:11,family:%27Fira%20Code%27}}}},cutout:%2778%25%27}}" width="100%" alt="Claude Code Architecture Telemetry" />
+  <td width="48%" align="center" style="vertical-align: middle;">
+      <img src="https://quickchart.io/chart?bkg=%230f172a&c={type:'doughnut',data:{labels:['Rust','C%2B%2B23','eBPF','Ada%2FSPARK','VHDL'],datasets:[{data:[35,25,15,15,10],backgroundColor:[%27%23CEA75D%27,%27%2300599C%27,%27%231D63ED%27,%27%2338BDF8%27,%27%235C2D91%27],borderColor:%27%230F172A%27,borderWidth:3}]},options:{plugins:{legend:{position:%27right%27,labels:{color:%27%23CBD5E1%27,boxWidth:10,usePointStyle:true,pointStyle:%27rectRounded%27,font:{size:11,family:%27Fira%20Code%27}}}},cutout:%2778%25%27}}" width="100%" alt="Core Engineering Focus Telemetry" />
     </td>
   </tr>
 </table>
