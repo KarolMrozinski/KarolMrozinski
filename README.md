@@ -25,12 +25,12 @@
 <table width="100%" style="border-collapse: collapse; border: none;">
   <tr>
     <td width="50%" align="center" style="vertical-align: top; padding-right: 6px;">      
-      <!-- Karta Bio SVG (bio-card.svg) -->
-     <img src="https://raw.githubusercontent.com/KarolMrozinski/KarolMrozinski/main/bio-card.svg" width="100%" alt="Architect Profile Bio" />
+      <!-- Pełny link RAW rozwiązuje błąd 'invalid image source' -->
+      <img src="https://raw.githubusercontent.com/TWOJ_NICK/NAZWA_REPO/main/bio-card.svg" width="100%" alt="Architect Profile Bio" />
     </td>   
-   <td width="50%" align="center" style="vertical-align: top; padding-left: 6px;">
-  <img src="./stack-chart.svg" width="100%" alt="Core Engineering Focus Telemetry" />
-</td>
+    <td width="50%" align="center" style="vertical-align: top; padding-left: 6px;">
+      <img src="./stack-chart.svg" width="100%" alt="Core Engineering Focus Telemetry" />
+    </td>
   </tr>
 </table>
 
