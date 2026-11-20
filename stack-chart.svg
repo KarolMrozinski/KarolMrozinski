@@ -1,0 +1,79 @@
+<svg width="340" height="190" viewBox="0 0 340 190" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="card-shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .donut-ring {
+      transform-origin: 95px 95px;
+      animation: spin 24s linear infinite;
+    }
+    .legend-text {
+      font-family: 'Fira Code', monospace, sans-serif;
+      font-size: 11px;
+      fill: #cbd5e1;
+      font-weight: 500;
+    }
+    .legend-val {
+      font-family: 'Fira Code', monospace, sans-serif;
+      font-size: 10px;
+      fill: #64748b;
+    }
+  </style>
+
+  <!-- Granatowa Ramka / Kontener (matching #0f172a template) -->
+  <rect x="2" y="2" width="336" height="186" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.5" filter="url(#card-shadow)" />
+
+  <!-- Animowany Wykres Pierścieniowy -->
+  <g class="donut-ring">
+    <!-- Rust (35%) -> Gold #CEA75D -->
+    <circle cx="95" cy="95" r="52" fill="none" stroke="#CEA75D" stroke-width="12" stroke-dasharray="114 213" stroke-dashoffset="0" />
+    <!-- C++23 (25%) -> Blue #00599C -->
+    <circle cx="95" cy="95" r="52" fill="none" stroke="#00599C" stroke-width="12" stroke-dasharray="81 246" stroke-dashoffset="-118" />
+    <!-- eBPF (15%) -> Bright Blue #1D63ED -->
+    <circle cx="95" cy="95" r="52" fill="none" stroke="#1D63ED" stroke-width="12" stroke-dasharray="49 278" stroke-dashoffset="-203" />
+    <!-- Ada/SPARK (15%) -> Cyan #38BDF8 -->
+    <circle cx="95" cy="95" r="52" fill="none" stroke="#38BDF8" stroke-width="12" stroke-dasharray="49 278" stroke-dashoffset="-256" />
+    <!-- VHDL (10%) -> Purple #5C2D91 -->
+    <circle cx="95" cy="95" r="52" fill="none" stroke="#5C2D91" stroke-width="12" stroke-dasharray="32 295" stroke-dashoffset="-309" />
+  </g>
+
+  <!-- Statyczna Wiązka Środkowa (Inner Core) -->
+  <circle cx="95" cy="95" r="40" fill="#0f172a" />
+  <text x="95" y="93" text-anchor="middle" font-family="&#39;Fira Code&#39;, monospace" font-size="8" fill="#64748b" letter-spacing="1">CORE</text>
+  <text x="95" y="103" text-anchor="middle" font-family="&#39;Fira Code&#39;, monospace" font-size="10" font-weight="bold" fill="#38BDF8">ARCH</text>
+
+  <!-- Legenda Stacku -->
+  <g transform="translate(180, 37)">
+    <!-- Rust -->
+    <rect x="0" y="0" width="8" height="8" rx="2" fill="#CEA75D" />
+    <text x="16" y="8" class="legend-text">Rust</text>
+    <text x="135" y="8" text-anchor="end" class="legend-val">35%</text>
+
+    <!-- C++23 -->
+    <rect x="0" y="24" width="8" height="8" rx="2" fill="#00599C" />
+    <text x="16" y="32" class="legend-text">C++23</text>
+    <text x="135" y="32" text-anchor="end" class="legend-val">25%</text>
+
+    <!-- eBPF -->
+    <rect x="0" y="48" width="8" height="8" rx="2" fill="#1D63ED" />
+    <text x="16" y="56" class="legend-text">eBPF</text>
+    <text x="135" y="56" text-anchor="end" class="legend-val">15%</text>
+
+    <!-- Ada/SPARK -->
+    <rect x="0" y="72" width="8" height="8" rx="2" fill="#38BDF8" />
+    <text x="16" y="80" class="legend-text">Ada/SPARK</text>
+    <text x="135" y="80" text-anchor="end" class="legend-val">15%</text>
+
+    <!-- VHDL -->
+    <rect x="0" y="96" width="8" height="8" rx="2" fill="#5C2D91" />
+    <text x="16" y="104" class="legend-text">VHDL</text>
+    <text x="135" y="104" text-anchor="end" class="legend-val">10%</text>
+  </g>
+</svg>
