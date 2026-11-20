@@ -26,12 +26,11 @@
   <tr>
     <td width="50%" align="center" style="vertical-align: top; padding-right: 6px;">      
       <!-- Karta Bio SVG (bio-card.svg) -->
-      <img src="./bio-card.svg" width="100%" alt="Architect Profile Bio" />
+     <img src="https://raw.githubusercontent.com/KarolMrozinski/KarolMrozinski/main/bio-card.svg" width="100%" alt="Architect Profile Bio" />
     </td>   
-    <td width="50%" align="center" style="vertical-align: top; padding-left: 6px;">
-      <!-- Animowany wykres pierścieniowy telemetryczny SVG -->
-      <img src="./stack-chart.svg" width="100%" alt="Core Engineering Focus Telemetry" />
-    </td>
+   <td width="50%" align="center" style="vertical-align: top; padding-left: 6px;">
+  <img src="./stack-chart.svg" width="100%" alt="Core Engineering Focus Telemetry" />
+</td>
   </tr>
 </table>
 
