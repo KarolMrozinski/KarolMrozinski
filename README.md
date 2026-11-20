@@ -24,43 +24,34 @@
 
 <table width="100%">
   <tr>
-    <td width="52%" style="vertical-align: top; padding-right: 8px;">
-      <!-- Główna karta z opisem i elementami UI -->
-      <div style="background: #0f172a; border: 1.5px solid #1e293b; border-radius: 10px; padding: 18px; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.4));">        
-        <!-- Górna belka statusowa (Claude Code Header) -->
-        <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #1e293b; padding-bottom: 10px; margin-bottom: 14px;">
-          <span style="font-family: 'Fira Code', monospace; font-size: 11px; font-weight: 700; color: #38bdf8; letter-spacing: 1.2px;">
-            <span style="color: #10b981;">●</span> ARCHITECT_PROFILE // OVERVIEW
-          </span>
-          <span style="font-family: 'Fira Code', monospace; font-size: 10px; color: #64748b; background: #161e2e; padding: 2px 8px; border-radius: 4px; border: 1px solid #1e293b;">v2026.4</span>
-        </div>
-        <!-- Główny opis -->
-        <p style="font-family: 'Fira Code', monospace; font-size: 12.5px; line-height: 1.6; color: #cbd5e1; margin-top: 0; margin-bottom: 16px;">
-          Software Engineer &amp; Security Analyst focused on <b>low-level systems engineering</b>, <b>hardware description</b>, <b>offensive security</b>, <b>CTI telemetry</b>, and <b>defensive AI architectures</b>.
-        </p>
-        <!-- Kafelki kompetencji (Struktura zamiast postrzępionych punktów) -->
-        <div style="display: flex; flex-direction: column; gap: 8px; font-family: 'Fira Code', monospace; font-size: 11.5px;">          
-          <div style="background: #161e2e; border-left: 3px solid #38bdf8; border-radius: 0 6px 6px 0; padding: 8px 12px; color: #cbd5e1;">
-            <span style="color: #38bdf8; font-weight: 700;">CORE DOMAINS</span><br/>
-            <span style="color: #94a3b8; font-size: 11px;">Purple Team Ops • Threat Intel • eBPF Telemetry</span>
-          </div>
-          <div style="background: #161e2e; border-left: 3px solid #cea75d; border-radius: 0 6px 6px 0; padding: 8px 12px; color: #cbd5e1;">
-            <span style="color: #cea75d; font-weight: 700;">PHILOSOPHY</span><br/>
-            <span style="color: #94a3b8; font-size: 11px;">High Assurance • Zero-Trust • Formal Verification</span>
-          </div>
-          <div style="background: #161e2e; border-left: 3px solid #10b981; border-radius: 0 6px 6px 0; padding: 8px 12px; color: #cbd5e1;">
-            <span style="color: #10b981; font-weight: 700;">ACADEMIC TRACK</span><br/>
-            <span style="color: #94a3b8; font-size: 11px;">Double Degree: Software Engineering &amp; Internal Security</span>
-          </div>
-          <div style="background: #161e2e; border-left: 3px solid #1d63ed; border-radius: 0 6px 6px 0; padding: 8px 12px; color: #cbd5e1;">
-            <span style="color: #1d63ed; font-weight: 700;">DISTINCTIONS</span><br/>
-            <span style="color: #94a3b8; font-size: 11px;">Laureate &amp; Finalist: NASA Space Apps, NASK, CISPA</span>
-          </div>
-        </div>
-      </div>
-    </td>    
-    <td width="48%" align="center" style="vertical-align: middle;">
-      <!-- Wykres telemetryczny SVG (stack-chart.svg) -->
+    <td width="52%" style="vertical-align: top; background: #0f172a; border: 1.5px solid #1e293b; border-radius: 8px; padding: 16px;">
+      <p style="font-family: 'Fira Code', monospace; font-size: 12.5px; line-height: 1.6; color: #cbd5e1; margin-top: 0; margin-bottom: 14px;">
+        Software Engineer and Security Analyst focused on low-level systems engineering, hardware description, offensive security, threat intelligence (CTI), and defensive AI architectures.
+      </p>      
+      <table width="100%" style="font-family: 'Fira Code', monospace; font-size: 11.5px; border-collapse: collapse;">
+        <tr>
+          <td style="padding: 6px 0; border-top: 1px solid #1e293b;">
+            <img src="https://img.shields.io/badge/DOMAINS-Purple_Team_%E2%80%A2_CTI_%E2%80%A2_eBPF-38bdf8?style=flat-square&logo=linux&logoColor=white" />
+          </td>
+        </tr>
+        <tr>
+          <td style="padding: 6px 0; border-top: 1px solid #1e293b;">
+            <img src="https://img.shields.io/badge/PHILOSOPHY-High_Assurance_%E2%80%A2_Zero_Trust-cea75d?style=flat-square&logo=rust&logoColor=white" />
+          </td>
+        </tr>
+        <tr>
+          <td style="padding: 6px 0; border-top: 1px solid #1e293b;">
+            <img src="https://img.shields.io/badge/ACADEMIC-Software_Eng_%26_Internal_Sec-10b981?style=flat-square&logo=academicons&logoColor=white" />
+          </td>
+        </tr>
+        <tr>
+          <td style="padding: 6px 0; border-top: 1px solid #1e293b;">
+            <img src="https://img.shields.io/badge/AWARDS-NASA_%E2%80%A2_NASK_%E2%80%A2_CISPA-1d63ed?style=flat-square&logo=nasa&logoColor=white" />
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td width="48%" align="center" style="vertical-align: middle; padding-left: 8px;">
       <img src="./stack-chart.svg" width="100%" alt="Core Engineering Focus Telemetry" />
     </td>
   </tr>
