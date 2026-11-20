@@ -67,6 +67,8 @@
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=cea75d" />
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
   <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" />
+  <img src="https://img.shields.io/badge/VHDL-5C2D91?style=for-the-badge&logo=vhdl&logoColor=white" />
+  <img src="https://img.shields.io/badge/APL-5B5B5B?style=for-the-badge&logo=apl&logoColor=white" />
   <img src="https://img.shields.io/badge/Ada-002040?style=for-the-badge&logo=ada&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
