@@ -26,11 +26,12 @@
   <tr>
     <td width="60%">
       <p>Software Engineer and Security Analyst focused on low-level systems engineering, hardware description, offensive security, threat intelligence (CTI), and defensive AI architectures.</p>
-     ```syslog
-[INIT]  Booting SANCTUM CTI Kernel... OK
-[AUTH]  Verifying ZK-Proofs & Attribute-Based Policies (ABE)... PASSED
-[CRYPTO] Hybrid Engine Active: Ed25519 + RSA-4096 Timestamping Enabled
-[GRAPH] Real-Time Bayesian Threat Inference Loop: ONLINE
+      <ul>
+        <li>🛡️ <b>Core Domains:</b> Purple Team Operations, Threat Intelligence, Systems Programming, eBPF Telemetry.</li>
+        <li>⚡ <b>Engineering Philosophy:</b> High assurance, zero-trust architectures, local-first CTI, and formal verification.</li>
+        <li>🎓 <b>Academic Track:</b> Double degree studies in Software Engineering & Internal Security.</li>
+        <li>🏆 <b>Distinctions:</b> Laureate and finalist in NASA, NASK, CISPA, and Consult IT cybersecurity challenges.</li>
+      </ul>
     </td>
     <td width="40%" align="center">
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KarolMrozinski&layout=donut&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&text_color=94a3b8" width="100%" />
@@ -42,15 +43,15 @@
 
 ### 🛡️ Featured System: SANCTUM SUITE `[Enterprise / Closed-Source]`
 
-> **High-Assurance Security Orchestration Platform**  
-> Enables automated threat ingestion, cryptographic validation, and telemetry-driven risk assessment across heterogeneous enterprise environments.
+> **Field Notes from the Architect:**  
+> *"SANCTUM SUITE is my custom-built, high-assurance CTI workspace. I built it to solve a specific problem: ingesting raw threat data from disparate SIEMs and network sensors, verifying its cryptographic provenance on the fly, and running real-time graph telemetry without trusting third-party cloud infrastructure."*
 
-| Core Engine & Feature | Technical Spec & Architecture |
-| :--- | :--- |
-| ⚡ **Threat Ingestion Pipeline** | Event processing engine for SIEM/EDR/network data via RESTful APIs with end-to-end encryption. Hybrid signature scheme (**Ed25519 + RSA-4096**) guarantees data provenance and source integrity. |
-| 🔐 **Cryptographic Zero-Trust** | Distributed identity system leveraging **Zero-Knowledge Proofs (ZK-Proofs)** for zero-credential auth. Fine-grained Access Control enforced via **Attribute-Based Encryption (ABE)** logic rules. |
-| 📊 **Risk Graph Analysis** | Real-time temporal graph processing engine mapping threat vectors. Computes probabilistic entity relationships using **Bayesian Networks** & ML-driven predictive risk scoring. |
-| ⚙️ **Deployment & Compliance** | Hardware-backed supply chain attestation with continuous signature validation via **Secure Enclaves**. Timestamped audit trails aligned with **SOC 2, ISO 27001, and NIST CSF**. |
+```syslog
+[INIT]  Booting SANCTUM CTI Kernel... OK
+[AUTH]  Verifying ZK-Proofs & Attribute-Based Policies (ABE)... PASSED
+[CRYPTO] Hybrid Engine Active: Ed25519 + RSA-4096 Timestamping Enabled
+[GRAPH] Real-Time Bayesian Threat Inference Loop: ONLINE
+```
 
 <br/>
 
@@ -130,4 +131,4 @@
 <div align="center">
 
 ```text
-[ SYSTEM STATUS: ONLINE ]  •  Karol Mrozinski  •  Poland
+[ SYSTEM STATUS: ONLINE ]  •  Karol Mrozinski  •  Warsaw, Poland
