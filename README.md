@@ -22,12 +22,50 @@
 
 ### 🌌 Executive Summary
 
-<table width="100%" style="border-collapse: stroke; border: none;">
+<table width="100%" style="border-collapse: collapse; border: none;">
   <tr>
-    <td width="50%" align="center" style="vertical-align: top; padding-right: 8px;">      
-      <img src="https://github.com/KarolMrozinski/KarolMrozinski/blob/main/bio-card.svg?raw=true" width="100%" alt="Architect Profile Bio" />
-    </td>   
+    <td width="50%" style="vertical-align: top; padding-right: 8px;">
+      
+      <!-- Pełnowymiarowa Karta Bio (Bez problemów z podglądem SVG) -->
+      <div style="background: #0f172a; border: 1.5px solid #1e293b; border-radius: 10px; padding: 16px; height: 100%; box-sizing: border-box;">
+        
+        <!-- Bio Header -->
+        <div style="border-left: 4px solid #38bdf8; padding-left: 12px; margin-bottom: 14px;">
+          <div style="font-family: 'Fira Code', monospace; font-size: 13px; font-weight: 700; color: #f8fafc;">Software Engineer &amp; Security Analyst</div>
+          <div style="font-family: 'Fira Code', monospace; font-size: 10.5px; color: #94a3b8; margin-top: 3px;">Low-Level Systems • CTI • Zero-Trust Architecture</div>
+        </div>
+
+        <hr style="border: none; border-top: 1px solid #1e293b; margin: 12px 0;" />
+
+        <!-- Kafelki Domenowe na Pełną Szerokość -->
+        <div style="display: flex; flex-direction: column; gap: 10px; font-family: 'Fira Code', monospace;">
+          
+          <div style="background: #161e2e; border: 1px solid #1e293b; border-radius: 6px; padding: 10px 12px;">
+            <div style="font-size: 11px; font-weight: 700; color: #38bdf8;">■ CORE DOMAINS</div>
+            <div style="font-size: 10px; color: #94a3b8; margin-top: 2px;">Purple Team • CTI Telemetry • eBPF</div>
+          </div>
+
+          <div style="background: #161e2e; border: 1px solid #1e293b; border-radius: 6px; padding: 10px 12px;">
+            <div style="font-size: 11px; font-weight: 700; color: #cea75d;">■ PHILOSOPHY</div>
+            <div style="font-size: 10px; color: #94a3b8; margin-top: 2px;">High Assurance • Zero-Trust • Local-First</div>
+          </div>
+
+          <div style="background: #161e2e; border: 1px solid #1e293b; border-radius: 6px; padding: 10px 12px;">
+            <div style="font-size: 11px; font-weight: 700; color: #10b981;">■ ACADEMIC TRACK</div>
+            <div style="font-size: 10px; color: #94a3b8; margin-top: 2px;">Double Degree: Software Eng &amp; Internal Sec</div>
+          </div>
+
+          <div style="background: #161e2e; border: 1px solid #1e293b; border-radius: 6px; padding: 10px 12px;">
+            <div style="font-size: 11px; font-weight: 700; color: #1d63ed;">■ DISTINCTIONS</div>
+            <div style="font-size: 10px; color: #94a3b8; margin-top: 2px;">NASA Space Apps • NASK • CISPA Champs</div>
+          </div>
+
+        </div>
+      </div>
+
+    </td>
     <td width="50%" align="center" style="vertical-align: top; padding-left: 8px;">
+      <!-- Wykres Telemetryczny z Dronem / Radar -->
       <img src="./stack-chart.svg" width="100%" alt="Core Engineering Focus Telemetry" />
     </td>
   </tr>
@@ -42,8 +80,9 @@
 
 <br/>
 
+<!-- Bezpieczny, Pełnowymiarowy Terminal CTI SVG -->
 <div align="center">
-  <img src="https://github.com/KarolMrozinski/KarolMrozinski/blob/main/terminal-logs.svg?raw=true" width="100%" alt="SANCTUM CTI Kernel Telemetry" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=13&duration=2500&pause=800&color=38BDF8&background=0F172A&stroke=1E293B&border=1&width=780&height=120&lines=%5BINIT%5D++Booting+SANCTUM+CTI+Kernel...+OK;%5BAUTH%5D++Verifying+ZK-Proofs+%26+Attribute-Based+Policies+(ABE)...+PASSED;%5BCRYPTO%5D+Hybrid+Engine+Active%3A+Ed25519+%2B+RSA-4096+Timestamping+Enabled;%5BGRAPH%5D++Real-Time+Bayesian+Threat+Inference+Loop%3A+ONLINE" alt="SANCTUM CTI Kernel Telemetry" />
 </div>
 
 <br/>
