@@ -24,45 +24,35 @@
 
 <table width="100%" style="border-collapse: collapse; border: none;">
   <tr>
-    <td width="50%" style="vertical-align: top; padding-right: 8px;">
-      
+    <td width="50%" style="vertical-align: top; padding-right: 8px;">    
       <!-- Pełnowymiarowa Karta Bio (Bez problemów z podglądem SVG) -->
-      <div style="background: #0f172a; border: 1.5px solid #1e293b; border-radius: 10px; padding: 16px; height: 100%; box-sizing: border-box;">
-        
+      <div style="background: #0f172a; border: 1.5px solid #1e293b; border-radius: 10px; padding: 16px; height: 100%; box-sizing: border-box;">        
         <!-- Bio Header -->
         <div style="border-left: 4px solid #38bdf8; padding-left: 12px; margin-bottom: 14px;">
           <div style="font-family: 'Fira Code', monospace; font-size: 13px; font-weight: 700; color: #f8fafc;">Software Engineer &amp; Security Analyst</div>
           <div style="font-family: 'Fira Code', monospace; font-size: 10.5px; color: #94a3b8; margin-top: 3px;">Low-Level Systems • CTI • Zero-Trust Architecture</div>
         </div>
-
         <hr style="border: none; border-top: 1px solid #1e293b; margin: 12px 0;" />
-
         <!-- Kafelki Domenowe na Pełną Szerokość -->
-        <div style="display: flex; flex-direction: column; gap: 10px; font-family: 'Fira Code', monospace;">
-          
+        <div style="display: flex; flex-direction: column; gap: 10px; font-family: 'Fira Code', monospace;">      
           <div style="background: #161e2e; border: 1px solid #1e293b; border-radius: 6px; padding: 10px 12px;">
             <div style="font-size: 11px; font-weight: 700; color: #38bdf8;">■ CORE DOMAINS</div>
             <div style="font-size: 10px; color: #94a3b8; margin-top: 2px;">Purple Team • CTI Telemetry • eBPF</div>
           </div>
-
           <div style="background: #161e2e; border: 1px solid #1e293b; border-radius: 6px; padding: 10px 12px;">
             <div style="font-size: 11px; font-weight: 700; color: #cea75d;">■ PHILOSOPHY</div>
             <div style="font-size: 10px; color: #94a3b8; margin-top: 2px;">High Assurance • Zero-Trust • Local-First</div>
           </div>
-
           <div style="background: #161e2e; border: 1px solid #1e293b; border-radius: 6px; padding: 10px 12px;">
             <div style="font-size: 11px; font-weight: 700; color: #10b981;">■ ACADEMIC TRACK</div>
             <div style="font-size: 10px; color: #94a3b8; margin-top: 2px;">Double Degree: Software Eng &amp; Internal Sec</div>
           </div>
-
           <div style="background: #161e2e; border: 1px solid #1e293b; border-radius: 6px; padding: 10px 12px;">
             <div style="font-size: 11px; font-weight: 700; color: #1d63ed;">■ DISTINCTIONS</div>
             <div style="font-size: 10px; color: #94a3b8; margin-top: 2px;">NASA Space Apps • NASK • CISPA Champs</div>
           </div>
-
         </div>
       </div>
-
     </td>
     <td width="50%" align="center" style="vertical-align: top; padding-left: 8px;">
       <!-- Wykres Telemetryczny z Dronem / Radar -->
