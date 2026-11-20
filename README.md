@@ -22,40 +22,83 @@
 
 ### 🌌 Executive Summary
 
-<table width="100%" style="border-collapse: collapse; border: none;">
+<table width="100%" style="border-collapse: stroke; border: none;">
   <tr>
-    <td width="50%" style="vertical-align: top; padding-right: 8px;">    
-      <!-- Pełnowymiarowa Karta Bio (Bez problemów z podglądem SVG) -->
-      <div style="background: #0f172a; border: 1.5px solid #1e293b; border-radius: 10px; padding: 16px; height: 100%; box-sizing: border-box;">        
-        <!-- Bio Header -->
-        <div style="border-left: 4px solid #38bdf8; padding-left: 12px; margin-bottom: 14px;">
-          <div style="font-family: 'Fira Code', monospace; font-size: 13px; font-weight: 700; color: #f8fafc;">Software Engineer &amp; Security Analyst</div>
-          <div style="font-family: 'Fira Code', monospace; font-size: 10.5px; color: #94a3b8; margin-top: 3px;">Low-Level Systems • CTI • Zero-Trust Architecture</div>
-        </div>
-        <hr style="border: none; border-top: 1px solid #1e293b; margin: 12px 0;" />
-        <!-- Kafelki Domenowe na Pełną Szerokość -->
-        <div style="display: flex; flex-direction: column; gap: 10px; font-family: 'Fira Code', monospace;">      
-          <div style="background: #161e2e; border: 1px solid #1e293b; border-radius: 6px; padding: 10px 12px;">
-            <div style="font-size: 11px; font-weight: 700; color: #38bdf8;">■ CORE DOMAINS</div>
-            <div style="font-size: 10px; color: #94a3b8; margin-top: 2px;">Purple Team • CTI Telemetry • eBPF</div>
-          </div>
-          <div style="background: #161e2e; border: 1px solid #1e293b; border-radius: 6px; padding: 10px 12px;">
-            <div style="font-size: 11px; font-weight: 700; color: #cea75d;">■ PHILOSOPHY</div>
-            <div style="font-size: 10px; color: #94a3b8; margin-top: 2px;">High Assurance • Zero-Trust • Local-First</div>
-          </div>
-          <div style="background: #161e2e; border: 1px solid #1e293b; border-radius: 6px; padding: 10px 12px;">
-            <div style="font-size: 11px; font-weight: 700; color: #10b981;">■ ACADEMIC TRACK</div>
-            <div style="font-size: 10px; color: #94a3b8; margin-top: 2px;">Double Degree: Software Eng &amp; Internal Sec</div>
-          </div>
-          <div style="background: #161e2e; border: 1px solid #1e293b; border-radius: 6px; padding: 10px 12px;">
-            <div style="font-size: 11px; font-weight: 700; color: #1d63ed;">■ DISTINCTIONS</div>
-            <div style="font-size: 10px; color: #94a3b8; margin-top: 2px;">NASA Space Apps • NASK • CISPA Champs</div>
-          </div>
-        </div>
+    <td width="50%" style="vertical-align: top; padding-right: 8px;">      
+      <!-- Kafelek 1: Bio Block (Claude Code Style) -->
+      <div style="background: #0f172a; border: 1.5px solid #1e293b; border-left: 4px solid #38bdf8; border-radius: 8px; padding: 14px 16px; margin-bottom: 14px;">
+        <p style="font-family: 'Fira Code', monospace; font-size: 12.5px; line-height: 1.6; color: #cbd5e1; margin: 0;">
+          Software Engineer &amp; Security Analyst focused on <b>low-level systems engineering</b>, <b>hardware description</b>, <b>offensive security</b>, <b>CTI telemetry</b>, and <b>defensive AI architectures</b>.
+        </p>
       </div>
-    </td>
+      <!-- Kafelek 2: Grid Wskaźników ze stałą wysokością i jednakową szerokością -->
+      <div style="background: #0f172a; border: 1.5px solid #1e293b; border-radius: 8px; padding: 14px 16px;">
+        <table width="100%" style="font-family: 'Fira Code', monospace; font-size: 11.5px; border-collapse: separate; border-spacing: 0 10px;">        
+          <!-- Core Domains -->
+          <tr>
+            <td style="background: #161e2e; border: 1px solid #1e293b; border-left: 4px solid #38bdf8; border-radius: 6px; padding: 10px 12px;">
+              <table width="100%">
+                <tr>
+                  <td align="left" style="color: #38bdf8; font-weight: 700;">
+                    <img src="https://img.shields.io/badge/-%F0%9F%9B%A1%EF%B8%8F_CORE_DOMAINS-38bdf8?style=flat-square&logo=linux&logoColor=white" height="18" />
+                  </td>
+                  <td align="right" style="color: #94a3b8; font-size: 11px;">
+                    Purple Team • CTI • eBPF
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- Philosophy -->
+          <tr>
+            <td style="background: #161e2e; border: 1px solid #1e293b; border-left: 4px solid #cea75d; border-radius: 6px; padding: 10px 12px;">
+              <table width="100%">
+                <tr>
+                  <td align="left" style="color: #cea75d; font-weight: 700;">
+                    <img src="https://img.shields.io/badge/-%E2%9A%A1_PHILOSOPHY-cea75d?style=flat-square&logo=rust&logoColor=white" height="18" />
+                  </td>
+                  <td align="right" style="color: #94a3b8; font-size: 11px;">
+                    High Assurance • Zero Trust
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- Academic Track -->
+          <tr>
+            <td style="background: #161e2e; border: 1px solid #1e293b; border-left: 4px solid #10b981; border-radius: 6px; padding: 10px 12px;">
+              <table width="100%">
+                <tr>
+                  <td align="left" style="color: #10b981; font-weight: 700;">
+                    <img src="https://img.shields.io/badge/-%F0%9F%8E%93_ACADEMIC-10b981?style=flat-square&logo=academicons&logoColor=white" height="18" />
+                  </td>
+                  <td align="right" style="color: #94a3b8; font-size: 11px;">
+                    Software Eng &amp; Internal Sec
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- Distinctions -->
+          <tr>
+            <td style="background: #161e2e; border: 1px solid #1e293b; border-left: 4px solid #1d63ed; border-radius: 6px; padding: 10px 12px;">
+              <table width="100%">
+                <tr>
+                  <td align="left" style="color: #1d63ed; font-weight: 700;">
+                    <img src="https://img.shields.io/badge/-%F0%9F%8F%86_DISTINCTIONS-1d63ed?style=flat-square&logo=nasa&logoColor=white" height="18" />
+                  </td>
+                  <td align="right" style="color: #94a3b8; font-size: 11px;">
+                    NASA • NASK • CISPA
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </td>   
     <td width="50%" align="center" style="vertical-align: top; padding-left: 8px;">
-      <!-- Wykres Telemetryczny z Dronem / Radar -->
+      <!-- Animowany wykres pierścieniowy telemetryczny SVG -->
       <img src="./stack-chart.svg" width="100%" alt="Core Engineering Focus Telemetry" />
     </td>
   </tr>
@@ -70,9 +113,9 @@
 
 <br/>
 
-<!-- Bezpieczny, Pełnowymiarowy Terminal CTI SVG -->
+<!-- Dynamic Terminal Boot Sequence SVG -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=13&duration=2500&pause=800&color=38BDF8&background=0F172A&stroke=1E293B&border=1&width=780&height=120&lines=%5BINIT%5D++Booting+SANCTUM+CTI+Kernel...+OK;%5BAUTH%5D++Verifying+ZK-Proofs+%26+Attribute-Based+Policies+(ABE)...+PASSED;%5BCRYPTO%5D+Hybrid+Engine+Active%3A+Ed25519+%2B+RSA-4096+Timestamping+Enabled;%5BGRAPH%5D++Real-Time+Bayesian+Threat+Inference+Loop%3A+ONLINE" alt="SANCTUM CTI Kernel Telemetry" />
+  <img src="[https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=13&duration=2800&pause=1000&color=38BDF8&multiline=true&background=0F172A&stroke=1E293B&border=1&width=780&height=130&lines=%5BINIT%5D++Booting+SANCTUM+CTI+Kernel...+OK;%5BAUTH%5D++Verifying+ZK-Proofs+%26+Attribute-Based+Policies+(ABE)...+PASSED;%5BCRYPTO%5D+Hybrid+Engine+Active%3A+Ed25519+%2B+RSA-4096+Timestamping+Enabled;%5BGRAPH%5D++Real-Time+Bayesian+Threat+Inference+Loop%3A+ONLINE](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=13&duration=2800&pause=1000&color=38BDF8&multiline=true&background=0F172A&stroke=1E293B&border=1&width=780&height=130&lines=%5BINIT%5D++Booting+SANCTUM+CTI+Kernel...+OK;%5BAUTH%5D++Verifying+ZK-Proofs+%26+Attribute-Based+Policies+(ABE)...+PASSED;%5BCRYPTO%5D+Hybrid+Engine+Active%3A+Ed25519+%2B+RSA-4096+Timestamping+Enabled;%5BGRAPH%5D++Real-Time+Bayesian+Threat+Inference+Loop%3A+ONLINE)" alt="SANCTUM Telemetry Log" />
 </div>
 
 <br/>
