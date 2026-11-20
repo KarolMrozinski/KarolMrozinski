@@ -26,12 +26,11 @@
   <tr>
     <td width="60%">
       <p>Software Engineer and Security Analyst focused on low-level systems engineering, hardware description, offensive security, threat intelligence (CTI), and defensive AI architectures.</p>
-      <ul>
-        <li>🛡️ <b>Core Domains:</b> Purple Team Operations, Threat Intelligence, Systems Programming, eBPF Telemetry.</li>
-        <li>⚡ <b>Engineering Philosophy:</b> High assurance, zero-trust architectures, local-first CTI, and formal verification.</li>
-        <li>🎓 <b>Academic Track:</b> Double degree studies in Software Engineering & Internal Security.</li>
-        <li>🏆 <b>Distinctions:</b> Laureate and finalist in NASA, NASK, CISPA, and Consult IT cybersecurity challenges.</li>
-      </ul>
+     ```syslog
+[INIT]  Booting SANCTUM CTI Kernel... OK
+[AUTH]  Verifying ZK-Proofs & Attribute-Based Policies (ABE)... PASSED
+[CRYPTO] Hybrid Engine Active: Ed25519 + RSA-4096 Timestamping Enabled
+[GRAPH] Real-Time Bayesian Threat Inference Loop: ONLINE
     </td>
     <td width="40%" align="center">
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KarolMrozinski&layout=donut&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&text_color=94a3b8" width="100%" />
