@@ -22,47 +22,83 @@
 
 ### 🌌 Executive Summary
 
-<table width="100%" style="border-collapse: collapse; border: none;">
+<table width="100%" style="border-collapse: stroke; border: none;">
   <tr>
-    <td width="50%" style="vertical-align: top; padding-right: 8px;">     
-      <!-- Kafelek 1: O mnie (Claude Code Bio Card) -->
-      <div style="background: #0f172a; border: 1.5px solid #1e293b; border-left: 4px solid #38bdf8; border-radius: 8px; padding: 14px 16px; margin-bottom: 10px;">
-        <p style="font-family: 'Fira Code', monospace; font-size: 13px; line-height: 1.6; color: #cbd5e1; margin: 0;">
+    <td width="50%" style="vertical-align: top; padding-right: 8px;">      
+      <!-- Kafelek 1: Bio Block (Claude Code Style) -->
+      <div style="background: #0f172a; border: 1.5px solid #1e293b; border-left: 4px solid #38bdf8; border-radius: 8px; padding: 14px 16px; margin-bottom: 14px;">
+        <p style="font-family: 'Fira Code', monospace; font-size: 12.5px; line-height: 1.6; color: #cbd5e1; margin: 0;">
           Software Engineer &amp; Security Analyst focused on <b>low-level systems engineering</b>, <b>hardware description</b>, <b>offensive security</b>, <b>CTI telemetry</b>, and <b>defensive AI architectures</b>.
         </p>
       </div>
-      <!-- Kafelek 2: Wskaźniki Kompetencji (Powiększone i idealnie wyjustowane) -->
-      <div style="background: #0f172a; border: 1.5px solid #1e293b; border-radius: 8px; padding: 12px 16px;">
-        <table width="100%" style="font-family: 'Fira Code', monospace; font-size: 12px; border-collapse: collapse;">
+      <!-- Kafelek 2: Grid Wskaźników ze stałą wysokością i jednakową szerokością -->
+      <div style="background: #0f172a; border: 1.5px solid #1e293b; border-radius: 8px; padding: 14px 16px;">
+        <table width="100%" style="font-family: 'Fira Code', monospace; font-size: 11.5px; border-collapse: separate; border-spacing: 0 10px;">        
+          <!-- Core Domains -->
           <tr>
-            <td style="padding: 8px 0; color: #94a3b8; font-weight: 600;">CORE DOMAINS</td>
-            <td align="right" style="padding: 8px 0;">
-              <img src="https://img.shields.io/badge/Purple_Team_%E2%80%A2_CTI_%E2%80%A2_eBPF-38bdf8?style=flat-square&logo=linux&logoColor=white" />
+            <td style="background: #161e2e; border: 1px solid #1e293b; border-left: 4px solid #38bdf8; border-radius: 6px; padding: 10px 12px;">
+              <table width="100%">
+                <tr>
+                  <td align="left" style="color: #38bdf8; font-weight: 700;">
+                    <img src="https://img.shields.io/badge/-%F0%9F%9B%A1%EF%B8%8F_CORE_DOMAINS-38bdf8?style=flat-square&logo=linux&logoColor=white" height="18" />
+                  </td>
+                  <td align="right" style="color: #94a3b8; font-size: 11px;">
+                    Purple Team • CTI • eBPF
+                  </td>
+                </tr>
+              </table>
             </td>
           </tr>
+          <!-- Philosophy -->
           <tr>
-            <td style="padding: 8px 0; border-top: 1px solid #1e293b; color: #94a3b8; font-weight: 600;">PHILOSOPHY</td>
-            <td align="right" style="padding: 8px 0; border-top: 1px solid #1e293b;">
-              <img src="https://img.shields.io/badge/High_Assurance_%E2%80%A2_Zero_Trust-cea75d?style=flat-square&logo=rust&logoColor=white" />
+            <td style="background: #161e2e; border: 1px solid #1e293b; border-left: 4px solid #cea75d; border-radius: 6px; padding: 10px 12px;">
+              <table width="100%">
+                <tr>
+                  <td align="left" style="color: #cea75d; font-weight: 700;">
+                    <img src="https://img.shields.io/badge/-%E2%9A%A1_PHILOSOPHY-cea75d?style=flat-square&logo=rust&logoColor=white" height="18" />
+                  </td>
+                  <td align="right" style="color: #94a3b8; font-size: 11px;">
+                    High Assurance • Zero Trust
+                  </td>
+                </tr>
+              </table>
             </td>
           </tr>
+          <!-- Academic Track -->
           <tr>
-            <td style="padding: 8px 0; border-top: 1px solid #1e293b; color: #94a3b8; font-weight: 600;">ACADEMIC TRACK</td>
-            <td align="right" style="padding: 8px 0; border-top: 1px solid #1e293b;">
-              <img src="https://img.shields.io/badge/Software_Eng_%26_Internal_Sec-10b981?style=flat-square&logo=academicons&logoColor=white" />
+            <td style="background: #161e2e; border: 1px solid #1e293b; border-left: 4px solid #10b981; border-radius: 6px; padding: 10px 12px;">
+              <table width="100%">
+                <tr>
+                  <td align="left" style="color: #10b981; font-weight: 700;">
+                    <img src="https://img.shields.io/badge/-%F0%9F%8E%93_ACADEMIC-10b981?style=flat-square&logo=academicons&logoColor=white" height="18" />
+                  </td>
+                  <td align="right" style="color: #94a3b8; font-size: 11px;">
+                    Software Eng &amp; Internal Sec
+                  </td>
+                </tr>
+              </table>
             </td>
           </tr>
+          <!-- Distinctions -->
           <tr>
-            <td style="padding: 8px 0; border-top: 1px solid #1e293b; color: #94a3b8; font-weight: 600;">DISTINCTIONS</td>
-            <td align="right" style="padding: 8px 0; border-top: 1px solid #1e293b;">
-              <img src="https://img.shields.io/badge/NASA_%E2%80%A2_NASK_%E2%80%A2_CISPA-1d63ed?style=flat-square&logo=nasa&logoColor=white" />
+            <td style="background: #161e2e; border: 1px solid #1e293b; border-left: 4px solid #1d63ed; border-radius: 6px; padding: 10px 12px;">
+              <table width="100%">
+                <tr>
+                  <td align="left" style="color: #1d63ed; font-weight: 700;">
+                    <img src="https://img.shields.io/badge/-%F0%9F%8F%86_DISTINCTIONS-1d63ed?style=flat-square&logo=nasa&logoColor=white" height="18" />
+                  </td>
+                  <td align="right" style="color: #94a3b8; font-size: 11px;">
+                    NASA • NASK • CISPA
+                  </td>
+                </tr>
+              </table>
             </td>
           </tr>
         </table>
       </div>
-    </td>    
+    </td>   
     <td width="50%" align="center" style="vertical-align: top; padding-left: 8px;">
-      <!-- Wykres Telemetryczny SVG -->
+      <!-- Animowany wykres pierścieniowy telemetryczny SVG -->
       <img src="./stack-chart.svg" width="100%" alt="Core Engineering Focus Telemetry" />
     </td>
   </tr>
