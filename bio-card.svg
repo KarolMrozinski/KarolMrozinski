@@ -1,55 +1,53 @@
-<svg width="340" height="230" viewBox="0 0 340 230" xmlns="http://www.w3.org/2000/svg">
-  <!-- Kontener Kafelka (#0f172a z obrysem) -->
+<svg width="340" height="230" viewBox="0 0 340 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tło i ramka -->
   <rect x="2" y="2" width="336" height="226" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1.5" />
 
-  <!-- Górna Sekcja Bio -->
+  <!-- Górny akcent Bio -->
   <g transform="translate(14, 16)">
     <rect x="0" y="0" width="3.5" height="34" rx="1.75" fill="#38bdf8" />
-    <text x="12" y="12" font-family="&#39;Fira Code&#39;, monospace, sans-serif" font-size="11" font-weight="700" fill="#f8fafc">Software Engineer & Security Analyst</text>
-    <text x="12" y="27" font-family="&#39;Fira Code&#39;, monospace, sans-serif" font-size="9.5" fill="#94a3b8">Low-Level Systems • CTI • Zero-Trust Architecture</text>
+    <text x="12" y="12" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, &#39;Fira Code&#39;, monospace" font-size="11" font-weight="700" fill="#f8fafc">Software Engineer & Security Analyst</text>
+    <text x="12" y="27" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, &#39;Fira Code&#39;, monospace" font-size="9.5" fill="#94a3b8">Low-Level Systems • CTI • Zero-Trust Architecture</text>
   </g>
 
-  <!-- Linia podziału sekcji -->
+  <!-- Podziałka -->
   <line x1="14" y1="58" x2="326" y2="58" stroke="#1e293b" stroke-width="1" />
 
-  <!-- SEKCJE KOMPETENCJI (Natywne atrybuty SVG bez bloku CSS style) -->
+  <!-- Kafelki kompetencji -->
   <g transform="translate(14, 66)">
-    
-    <!-- Kafelek 1: CORE DOMAINS -->
+    <!-- CORE DOMAINS -->
     <g transform="translate(0, 0)">
       <rect x="0" y="0" width="312" height="34" rx="6" fill="#161e2e" stroke="#1e293b" stroke-width="1" />
       <rect x="11" y="12" width="10" height="10" rx="2" fill="none" stroke="#38bdf8" stroke-width="1.5" />
       <circle cx="16" cy="17" r="2" fill="#38bdf8" />
-      <text x="30" y="14" font-family="&#39;Fira Code&#39;, monospace, sans-serif" font-size="10" font-weight="700" fill="#38bdf8">CORE DOMAINS</text>
-      <text x="30" y="26" font-family="&#39;Fira Code&#39;, monospace, sans-serif" font-size="9.5" fill="#94a3b8">Purple Team • CTI Telemetry • eBPF</text>
+      <text x="30" y="14" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, &#39;Fira Code&#39;, monospace" font-size="10" font-weight="700" fill="#38bdf8">CORE DOMAINS</text>
+      <text x="30" y="26" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, &#39;Fira Code&#39;, monospace" font-size="9.5" fill="#94a3b8">Purple Team • CTI Telemetry • eBPF</text>
     </g>
 
-    <!-- Kafelek 2: PHILOSOPHY -->
+    <!-- PHILOSOPHY -->
     <g transform="translate(0, 39)">
       <rect x="0" y="0" width="312" height="34" rx="6" fill="#161e2e" stroke="#1e293b" stroke-width="1" />
       <rect x="11" y="12" width="10" height="10" rx="2" fill="none" stroke="#cea75d" stroke-width="1.5" />
       <circle cx="16" cy="17" r="2" fill="#cea75d" />
-      <text x="30" y="14" font-family="&#39;Fira Code&#39;, monospace, sans-serif" font-size="10" font-weight="700" fill="#cea75d">PHILOSOPHY</text>
-      <text x="30" y="26" font-family="&#39;Fira Code&#39;, monospace, sans-serif" font-size="9.5" fill="#94a3b8">High Assurance • Zero-Trust • Local-First</text>
+      <text x="30" y="14" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, &#39;Fira Code&#39;, monospace" font-size="10" font-weight="700" fill="#cea75d">PHILOSOPHY</text>
+      <text x="30" y="26" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, &#39;Fira Code&#39;, monospace" font-size="9.5" fill="#94a3b8">High Assurance • Zero-Trust • Local-First</text>
     </g>
 
-    <!-- Kafelek 3: ACADEMIC TRACK -->
+    <!-- ACADEMIC TRACK -->
     <g transform="translate(0, 78)">
       <rect x="0" y="0" width="312" height="34" rx="6" fill="#161e2e" stroke="#1e293b" stroke-width="1" />
       <rect x="11" y="12" width="10" height="10" rx="2" fill="none" stroke="#10b981" stroke-width="1.5" />
       <circle cx="16" cy="17" r="2" fill="#10b981" />
-      <text x="30" y="14" font-family="&#39;Fira Code&#39;, monospace, sans-serif" font-size="10" font-weight="700" fill="#10b981">ACADEMIC TRACK</text>
-      <text x="30" y="26" font-family="&#39;Fira Code&#39;, monospace, sans-serif" font-size="9.5" fill="#94a3b8">Double Degree: Software Eng & Internal Sec</text>
+      <text x="30" y="14" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, &#39;Fira Code&#39;, monospace" font-size="10" font-weight="700" fill="#10b981">ACADEMIC TRACK</text>
+      <text x="30" y="26" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, &#39;Fira Code&#39;, monospace" font-size="9.5" fill="#94a3b8">Double Degree: Software Eng & Internal Sec</text>
     </g>
 
-    <!-- Kafelek 4: DISTINCTIONS -->
+    <!-- DISTINCTIONS -->
     <g transform="translate(0, 117)">
       <rect x="0" y="0" width="312" height="34" rx="6" fill="#161e2e" stroke="#1e293b" stroke-width="1" />
       <rect x="11" y="12" width="10" height="10" rx="2" fill="none" stroke="#1d63ed" stroke-width="1.5" />
       <circle cx="16" cy="17" r="2" fill="#1d63ed" />
-      <text x="30" y="14" font-family="&#39;Fira Code&#39;, monospace, sans-serif" font-size="10" font-weight="700" fill="#1d63ed">DISTINCTIONS</text>
-      <text x="30" y="26" font-family="&#39;Fira Code&#39;, monospace, sans-serif" font-size="9.5" fill="#94a3b8">NASA Space Apps • NASK • CISPA Champs</text>
+      <text x="30" y="14" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, &#39;Fira Code&#39;, monospace" font-size="10" font-weight="700" fill="#1d63ed">DISTINCTIONS</text>
+      <text x="30" y="26" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, &#39;Fira Code&#39;, monospace" font-size="9.5" fill="#94a3b8">NASA Space Apps • NASK • CISPA Champs</text>
     </g>
-
   </g>
 </svg>
