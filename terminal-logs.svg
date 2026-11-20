@@ -1,73 +1,46 @@
-<svg width="780" height="150" viewBox="0 0 780 150" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    @keyframes pulse-dot {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.3; }
-    }
-    @keyframes cursor-blink {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0; }
-    }
-    .status-dot-green {
-      animation: pulse-dot 2s ease-in-out infinite;
-    }
-    .cursor {
-      animation: cursor-blink 1s step-end infinite;
-    }
-    .term-text {
-      font-family: 'Fira Code', monospace, sans-serif;
-      font-size: 12px;
-    }
-    .term-sub { font-weight: 500; fill: #cbd5e1; }
-    .term-tag-init { fill: #64748b; font-weight: bold; }
-    .term-tag-auth { fill: #cea75d; font-weight: bold; }
-    .term-tag-crypto { fill: #1d63ed; font-weight: bold; }
-    .term-tag-graph { fill: #10b981; font-weight: bold; }
-  </style>
-
-  <!-- Kontener Terminala / Tło -->
+<svg width="780" height="150" viewBox="0 0 780 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tło terminala -->
   <rect x="2" y="2" width="776" height="146" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.5" />
 
-  <!-- Górna Belka Header Bar -->
+  <!-- Górny pasek nawigacyjny -->
   <path d="M 2 10 C 2 5.5, 5.5 2, 10 2 L 770 2 C 774.5 2, 778 5.5, 778 10 L 778 32 L 2 32 Z" fill="#161e2e" />
   <line x1="2" y1="32" x2="778" y2="32" stroke="#1e293b" stroke-width="1" />
   
-  <!-- Przyciski Okna i Dioda Live -->
-  <circle cx="18" cy="17" r="4.5" fill="#10b981" class="status-dot-green" />
+  <circle cx="18" cy="17" r="4.5" fill="#10b981" />
   <circle cx="34" cy="17" r="4.5" fill="#1e293b" />
   <circle cx="50" cy="17" r="4.5" fill="#1e293b" />
   
-  <text x="390" y="21" text-anchor="middle" font-family="&#39;Fira Code&#39;, monospace" font-size="11" fill="#64748b" letter-spacing="1">sanctum-cti-kernel --telemetry --live</text>
+  <text x="390" y="21" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, &#39;Fira Code&#39;, monospace" font-size="11" fill="#64748b" letter-spacing="1">sanctum-cti-kernel --telemetry --live</text>
 
-  <!-- Treść Konsoli Logów CTI -->
+  <!-- Logi CLI -->
   <g transform="translate(20, 56)">
     <!-- Linia 1 -->
     <g transform="translate(0, 0)">
-      <text x="0" y="0" class="term-text term-tag-init">[INIT]</text>
-      <text x="65" y="0" class="term-text term-sub">Booting SANCTUM CTI Kernel...</text>
-      <text x="330" y="0" class="term-text" fill="#10b981" font-weight="bold">OK</text>
+      <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, &#39;Fira Code&#39;, monospace" font-size="12" font-weight="bold" fill="#64748b">[INIT]</text>
+      <text x="65" y="0" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, &#39;Fira Code&#39;, monospace" font-size="12" font-weight="500" fill="#cbd5e1">Booting SANCTUM CTI Kernel...</text>
+      <text x="330" y="0" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, &#39;Fira Code&#39;, monospace" font-size="12" font-weight="bold" fill="#10b981">OK</text>
     </g>
 
     <!-- Linia 2 -->
     <g transform="translate(0, 22)">
-      <text x="0" y="0" class="term-text term-tag-auth">[AUTH]</text>
-      <text x="65" y="0" class="term-text term-sub">Verifying ZK-Proofs & Attribute-Based Policies (ABE)...</text>
-      <text x="505" y="0" class="term-text" fill="#10b981" font-weight="bold">PASSED</text>
+      <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, &#39;Fira Code&#39;, monospace" font-size="12" font-weight="bold" fill="#cea75d">[AUTH]</text>
+      <text x="65" y="0" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, &#39;Fira Code&#39;, monospace" font-size="12" font-weight="500" fill="#cbd5e1">Verifying ZK-Proofs & Attribute-Based Policies (ABE)...</text>
+      <text x="505" y="0" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, &#39;Fira Code&#39;, monospace" font-size="12" font-weight="bold" fill="#10b981">PASSED</text>
     </g>
 
     <!-- Linia 3 -->
     <g transform="translate(0, 44)">
-      <text x="0" y="0" class="term-text term-tag-crypto">[CRYPTO]</text>
-      <text x="65" y="0" class="term-text term-sub">Hybrid Engine Active: Ed25519 + RSA-4096 Timestamping</text>
-      <text x="495" y="0" class="term-text" fill="#38bdf8" font-weight="bold">ENABLED</text>
+      <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, &#39;Fira Code&#39;, monospace" font-size="12" font-weight="bold" fill="#1d63ed">[CRYPTO]</text>
+      <text x="65" y="0" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, &#39;Fira Code&#39;, monospace" font-size="12" font-weight="500" fill="#cbd5e1">Hybrid Engine Active: Ed25519 + RSA-4096 Timestamping</text>
+      <text x="495" y="0" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, &#39;Fira Code&#39;, monospace" font-size="12" font-weight="bold" fill="#38bdf8">ENABLED</text>
     </g>
 
     <!-- Linia 4 -->
     <g transform="translate(0, 66)">
-      <text x="0" y="0" class="term-text term-tag-graph">[GRAPH]</text>
-      <text x="65" y="0" class="term-text term-sub">Real-Time Bayesian Threat Inference Loop:</text>
-      <text x="410" y="0" class="term-text" fill="#10b981" font-weight="bold">ONLINE</text>
-      <rect class="cursor" x="470" y="-10" width="7" height="13" fill="#38bdf8" />
+      <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, &#39;Fira Code&#39;, monospace" font-size="12" font-weight="bold" fill="#10b981">[GRAPH]</text>
+      <text x="65" y="0" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, &#39;Fira Code&#39;, monospace" font-size="12" font-weight="500" fill="#cbd5e1">Real-Time Bayesian Threat Inference Loop:</text>
+      <text x="410" y="0" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, &#39;Fira Code&#39;, monospace" font-size="12" font-weight="bold" fill="#10b981">ONLINE</text>
+      <rect x="470" y="-10" width="7" height="13" fill="#38bdf8" />
     </g>
   </g>
 </svg>
