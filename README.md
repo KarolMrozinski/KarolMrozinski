@@ -22,36 +22,47 @@
 
 ### 🌌 Executive Summary
 
-<table width="100%">
+<table width="100%" style="border-collapse: collapse; border: none;">
   <tr>
-    <td width="52%" style="vertical-align: top; background: #0f172a; border: 1.5px solid #1e293b; border-radius: 8px; padding: 16px;">
-      <p style="font-family: 'Fira Code', monospace; font-size: 12.5px; line-height: 1.6; color: #cbd5e1; margin-top: 0; margin-bottom: 14px;">
-        Software Engineer and Security Analyst focused on low-level systems engineering, hardware description, offensive security, threat intelligence (CTI), and defensive AI architectures.
-      </p>      
-      <table width="100%" style="font-family: 'Fira Code', monospace; font-size: 11.5px; border-collapse: collapse;">
-        <tr>
-          <td style="padding: 6px 0; border-top: 1px solid #1e293b;">
-            <img src="https://img.shields.io/badge/DOMAINS-Purple_Team_%E2%80%A2_CTI_%E2%80%A2_eBPF-38bdf8?style=flat-square&logo=linux&logoColor=white" />
-          </td>
-        </tr>
-        <tr>
-          <td style="padding: 6px 0; border-top: 1px solid #1e293b;">
-            <img src="https://img.shields.io/badge/PHILOSOPHY-High_Assurance_%E2%80%A2_Zero_Trust-cea75d?style=flat-square&logo=rust&logoColor=white" />
-          </td>
-        </tr>
-        <tr>
-          <td style="padding: 6px 0; border-top: 1px solid #1e293b;">
-            <img src="https://img.shields.io/badge/ACADEMIC-Software_Eng_%26_Internal_Sec-10b981?style=flat-square&logo=academicons&logoColor=white" />
-          </td>
-        </tr>
-        <tr>
-          <td style="padding: 6px 0; border-top: 1px solid #1e293b;">
-            <img src="https://img.shields.io/badge/AWARDS-NASA_%E2%80%A2_NASK_%E2%80%A2_CISPA-1d63ed?style=flat-square&logo=nasa&logoColor=white" />
-          </td>
-        </tr>
-      </table>
-    </td>
-    <td width="48%" align="center" style="vertical-align: middle; padding-left: 8px;">
+    <td width="50%" style="vertical-align: top; padding-right: 8px;">     
+      <!-- Kafelek 1: O mnie (Claude Code Bio Card) -->
+      <div style="background: #0f172a; border: 1.5px solid #1e293b; border-left: 4px solid #38bdf8; border-radius: 8px; padding: 14px 16px; margin-bottom: 10px;">
+        <p style="font-family: 'Fira Code', monospace; font-size: 13px; line-height: 1.6; color: #cbd5e1; margin: 0;">
+          Software Engineer &amp; Security Analyst focused on <b>low-level systems engineering</b>, <b>hardware description</b>, <b>offensive security</b>, <b>CTI telemetry</b>, and <b>defensive AI architectures</b>.
+        </p>
+      </div>
+      <!-- Kafelek 2: Wskaźniki Kompetencji (Powiększone i idealnie wyjustowane) -->
+      <div style="background: #0f172a; border: 1.5px solid #1e293b; border-radius: 8px; padding: 12px 16px;">
+        <table width="100%" style="font-family: 'Fira Code', monospace; font-size: 12px; border-collapse: collapse;">
+          <tr>
+            <td style="padding: 8px 0; color: #94a3b8; font-weight: 600;">CORE DOMAINS</td>
+            <td align="right" style="padding: 8px 0;">
+              <img src="https://img.shields.io/badge/Purple_Team_%E2%80%A2_CTI_%E2%80%A2_eBPF-38bdf8?style=flat-square&logo=linux&logoColor=white" />
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 8px 0; border-top: 1px solid #1e293b; color: #94a3b8; font-weight: 600;">PHILOSOPHY</td>
+            <td align="right" style="padding: 8px 0; border-top: 1px solid #1e293b;">
+              <img src="https://img.shields.io/badge/High_Assurance_%E2%80%A2_Zero_Trust-cea75d?style=flat-square&logo=rust&logoColor=white" />
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 8px 0; border-top: 1px solid #1e293b; color: #94a3b8; font-weight: 600;">ACADEMIC TRACK</td>
+            <td align="right" style="padding: 8px 0; border-top: 1px solid #1e293b;">
+              <img src="https://img.shields.io/badge/Software_Eng_%26_Internal_Sec-10b981?style=flat-square&logo=academicons&logoColor=white" />
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 8px 0; border-top: 1px solid #1e293b; color: #94a3b8; font-weight: 600;">DISTINCTIONS</td>
+            <td align="right" style="padding: 8px 0; border-top: 1px solid #1e293b;">
+              <img src="https://img.shields.io/badge/NASA_%E2%80%A2_NASK_%E2%80%A2_CISPA-1d63ed?style=flat-square&logo=nasa&logoColor=white" />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </td>    
+    <td width="50%" align="center" style="vertical-align: top; padding-left: 8px;">
+      <!-- Wykres Telemetryczny SVG -->
       <img src="./stack-chart.svg" width="100%" alt="Core Engineering Focus Telemetry" />
     </td>
   </tr>
