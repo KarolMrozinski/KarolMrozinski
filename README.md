@@ -33,8 +33,78 @@
         <li>🏆 <b>Distinctions:</b> Laureate and finalist in NASA, NASK, CISPA, and Consult IT cybersecurity challenges.</li>
       </ul>
     </td>
-  <td width="48%" align="center" style="vertical-align: middle;">
-      <img src="https://quickchart.io/chart?bkg=%230f172a&c={type:'doughnut',data:{labels:['Rust','C%2B%2B23','eBPF','Ada%2FSPARK','VHDL'],datasets:[{data:[35,25,15,15,10],backgroundColor:[%27%23CEA75D%27,%27%2300599C%27,%27%231D63ED%27,%27%2338BDF8%27,%27%235C2D91%27],borderColor:%27%230F172A%27,borderWidth:3}]},options:{plugins:{legend:{position:%27right%27,labels:{color:%27%23CBD5E1%27,boxWidth:10,usePointStyle:true,pointStyle:%27rectRounded%27,font:{size:11,family:%27Fira%20Code%27}}}},cutout:%2778%25%27}}" width="100%" alt="Core Engineering Focus Telemetry" />
+ <td width="52%" style="vertical-align: top;">
+      <p>Software Engineer and Security Analyst focused on low-level systems engineering, hardware description, offensive security, threat intelligence (CTI), and defensive AI architectures.</p>
+      <ul>
+        <li>🛡️ <b>Core Domains:</b> Purple Team Operations, Threat Intelligence, Systems Programming, eBPF Telemetry.</li>
+        <li>⚡ <b>Engineering Philosophy:</b> High assurance, zero-trust architectures, local-first CTI, and formal verification.</li>
+        <li>🎓 <b>Academic Track:</b> Double degree studies in Software Engineering & Internal Security.</li>
+        <li>🏆 <b>Distinctions:</b> Laureate and finalist in NASA, NASK, CISPA, and Consult IT cybersecurity challenges.</li>
+      </ul>
+    </td>
+    <td width="48%" align="center" style="vertical-align: middle;">
+      <!-- Animowany pierścień wykresu kołowego z obrotem w CSS -->
+      <svg width="280" height="200" viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg" style="background: #0f172a; border-radius: 8px;">
+        <style>
+          @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+          }
+          @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+          }
+          .donut-ring {
+            transform-origin: 90px 100px;
+            animation: spin 20s linear infinite;
+          }
+          .status-dot {
+            animation: pulse 2s ease-in-out infinite;
+          }
+          .legend-text {
+            font-family: 'Fira Code', monospace, sans-serif;
+            font-size: 11px;
+            fill: #cbd5e1;
+          }
+        </style>
+        
+        <!-- Wykres pierścieniowy z animacją obrotu -->
+        <g class="donut-ring">
+          <!-- Rust (35%) -> Gold #CEA75D -->
+          <circle cx="90" cy="100" r="55" fill="none" stroke="#CEA75D" stroke-width="14" stroke-dasharray="121 224" stroke-dashoffset="0" />
+          <!-- C++ (25%) -> Blue #00599C -->
+          <circle cx="90" cy="100" r="55" fill="none" stroke="#00599C" stroke-dasharray="86 259" stroke-dashoffset="-124" stroke-width="14" />
+          <!-- eBPF (15%) -> Bright Blue #1D63ED -->
+          <circle cx="90" cy="100" r="55" fill="none" stroke="#1D63ED" stroke-dasharray="52 293" stroke-dashoffset="-213" stroke-width="14" />
+          <!-- Ada/SPARK (15%) -> Cyan #38BDF8 -->
+          <circle cx="90" cy="100" r="55" fill="none" stroke="#38BDF8" stroke-dasharray="52 293" stroke-dashoffset="-268" stroke-width="14" />
+          <!-- VHDL (10%) -> Purple #5C2D91 -->
+          <circle cx="90" cy="100" r="55" fill="none" stroke="#5C2D91" stroke-dasharray="35 310" stroke-dashoffset="-323" stroke-width="14" />
+        </g>
+        
+        <!-- Statyczny środek i status -->
+        <circle cx="90" cy="100" r="43" fill="#0f172a" />
+        <circle class="status-dot" cx="90" cy="92" r="4" fill="#38BDF8" />
+        <text x="90" y="112" text-anchor="middle" font-family="'Fira Code', monospace" font-size="9" fill="#94a3b8" letter-spacing="1">STACK</text>
+
+        <!-- Legenda w stylu Claude Code / Tech UI -->
+        <g transform="translate(175, 45)">
+          <rect x="0" y="0" width="8" height="8" rx="2" fill="#CEA75D" />
+          <text x="15" y="8" class="legend-text">Rust</text>
+          
+          <rect x="0" y="24" width="8" height="8" rx="2" fill="#00599C" />
+          <text x="15" y="32" class="legend-text">C++23</text>
+          
+          <rect x="0" y="48" width="8" height="8" rx="2" fill="#1D63ED" />
+          <text x="15" y="56" class="legend-text">eBPF</text>
+          
+          <rect x="0" y="72" width="8" height="8" rx="2" fill="#38BDF8" />
+          <text x="15" y="80" class="legend-text">Ada/SPARK</text>
+          
+          <rect x="0" y="96" width="8" height="8" rx="2" fill="#5C2D91" />
+          <text x="15" y="104" class="legend-text">VHDL</text>
+        </g>
+      </svg>
     </td>
   </tr>
 </table>
