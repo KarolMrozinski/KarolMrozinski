@@ -41,16 +41,17 @@
 
 <br/>
 
-### 🛡️ Featured System: SANCTUM SUITE `[Closed-Source]`
+### 🛡️ Featured System: SANCTUM SUITE `[Enterprise / Closed-Source]`
 
-> **Field Notes from the Architect:**  
-> *"SANCTUM SUITE is my custom-built, high-assurance CTI workspace. I built it to solve a specific problem: ingesting raw threat data from disparate SIEMs and network sensors, verifying its cryptographic provenance on the fly, and running real-time graph telemetry without trusting third-party cloud infrastructure."*
+> **High-Assurance Security Orchestration Platform**  
+> Enables automated threat ingestion, cryptographic validation, and telemetry-driven risk assessment across heterogeneous enterprise environments.
 
-```syslog
-[INIT]  Booting SANCTUM CTI Kernel... OK
-[AUTH]  Verifying ZK-Proofs & Attribute-Based Policies (ABE)... PASSED
-[CRYPTO] Hybrid Engine Active: Ed25519 + RSA-4096 Timestamping Enabled
-[GRAPH] Real-Time Bayesian Threat Inference Loop: ONLINE
+| Core Engine & Feature | Technical Spec & Architecture |
+| :--- | :--- |
+| ⚡ **Threat Ingestion Pipeline** | Event processing engine for SIEM/EDR/network data via RESTful APIs with end-to-end encryption. Hybrid signature scheme (**Ed25519 + RSA-4096**) guarantees data provenance and source integrity. |
+| 🔐 **Cryptographic Zero-Trust** | Distributed identity system leveraging **Zero-Knowledge Proofs (ZK-Proofs)** for zero-credential auth. Fine-grained Access Control enforced via **Attribute-Based Encryption (ABE)** logic rules. |
+| 📊 **Risk Graph Analysis** | Real-time temporal graph processing engine mapping threat vectors. Computes probabilistic entity relationships using **Bayesian Networks** & ML-driven predictive risk scoring. |
+| ⚙️ **Deployment & Compliance** | Hardware-backed supply chain attestation with continuous signature validation via **Secure Enclaves**. Timestamped audit trails aligned with **SOC 2, ISO 27001, and NIST CSF**. |
 
 <br/>
 
@@ -130,4 +131,4 @@
 <div align="center">
 
 ```text
-[ SYSTEM STATUS: ONLINE ]  •  Karol Mrozinski  •  Warsaw, Poland
+[ SYSTEM STATUS: ONLINE ]  •  Karol Mrozinski  •  Poland
