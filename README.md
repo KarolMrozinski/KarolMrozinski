@@ -41,7 +41,7 @@
 
 <br/>
 
-### 🛡️ Featured System: SANCTUM SUITE `[Enterprise / Closed-Source]`
+### 🛡️ Featured System: SANCTUM SUITE `[Closed-Source]`
 
 > **Field Notes from the Architect:**  
 > *"SANCTUM SUITE is my custom-built, high-assurance CTI workspace. I built it to solve a specific problem: ingesting raw threat data from disparate SIEMs and network sensors, verifying its cryptographic provenance on the fly, and running real-time graph telemetry without trusting third-party cloud infrastructure."*
