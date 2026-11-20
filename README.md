@@ -51,22 +51,7 @@
 
 <!-- Dynamic Terminal Boot Sequence SVG -->
 <div align="center">
-  <svg width="100%" max-width="780" height="150" viewBox="0 0 780 150" xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)">
-    <!-- Tło i ramka konsoli -->
-    <rect x="2" y="2" width="776" height="146" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.5" />    
-    <!-- Pasek nagłówkowy (Header Bar) -->
-    <path d="M 2 10 C 2 5.5, 5.5 2, 10 2 L 770 2 C 774.5 2, 778 5.5, 778 10 L 778 30 L 2 30 Z" fill="#161e2e" />
-    <circle cx="18" cy="16" r="5" fill="#ef4444" opacity="0.8" />
-    <circle cx="34" cy="16" r="5" fill="#f59e0b" opacity="0.8" />
-    <circle cx="50" cy="16" r="5" fill="#10b981" opacity="0.8" />
-    <text x="390" y="20" text-anchor="middle" font-family="'Fira Code', monospace" font-size="11" fill="#64748b">sanctum-cti-kernel --telemetry --live</text>    
-    <!-- Treść konsoli z podglądem SVG -->
-    <foreignObject x="15" y="38" width="750" height="100">
-      <div xmlns="[http://www.w3.org/1999/xhtml](http://www.w3.org/1999/xhtml)" style="font-family: 'Fira Code', monospace; font-size: 12px; line-height: 1.6; color: #cbd5e1;">
-        <img src="[https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=12&amp;duration=3000&amp;pause=1000&amp;color=38BDF8&amp;background=0F172A00&amp;width=740&amp;height=90&amp;lines=%5BINIT%5D++Booting+SANCTUM+CTI+Kernel...+OK;%5BAUTH%5D++Verifying+ZK-Proofs+%26+Attribute-Based+Policies+(ABE)...+PASSED;%5BCRYPTO%5D+Hybrid+Engine+Active%3A+Ed25519+%2B+RSA-4096+Timestamping+Enabled;%5BGRAPH%5D++Real-Time+Bayesian+Threat+Inference+Loop%3A+ONLINE](https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=12&amp;duration=3000&amp;pause=1000&amp;color=38BDF8&amp;background=0F172A00&amp;width=740&amp;height=90&amp;lines=%5BINIT%5D++Booting+SANCTUM+CTI+Kernel...+OK;%5BAUTH%5D++Verifying+ZK-Proofs+%26+Attribute-Based+Policies+(ABE)...+PASSED;%5BCRYPTO%5D+Hybrid+Engine+Active%3A+Ed25519+%2B+RSA-4096+Timestamping+Enabled;%5BGRAPH%5D++Real-Time+Bayesian+Threat+Inference+Loop%3A+ONLINE)" alt="Kernel Telemetry" />
-      </div>
-    </foreignObject>
-  </svg>
+  <img src="[https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=13&duration=2800&pause=1000&color=38BDF8&multiline=true&background=0F172A&stroke=1E293B&border=1&width=780&height=130&lines=%5BINIT%5D++Booting+SANCTUM+CTI+Kernel...+OK;%5BAUTH%5D++Verifying+ZK-Proofs+%26+Attribute-Based+Policies+(ABE)...+PASSED;%5BCRYPTO%5D+Hybrid+Engine+Active%3A+Ed25519+%2B+RSA-4096+Timestamping+Enabled;%5BGRAPH%5D++Real-Time+Bayesian+Threat+Inference+Loop%3A+ONLINE](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=13&duration=2800&pause=1000&color=38BDF8&multiline=true&background=0F172A&stroke=1E293B&border=1&width=780&height=130&lines=%5BINIT%5D++Booting+SANCTUM+CTI+Kernel...+OK;%5BAUTH%5D++Verifying+ZK-Proofs+%26+Attribute-Based+Policies+(ABE)...+PASSED;%5BCRYPTO%5D+Hybrid+Engine+Active%3A+Ed25519+%2B+RSA-4096+Timestamping+Enabled;%5BGRAPH%5D++Real-Time+Bayesian+Threat+Inference+Loop%3A+ONLINE)" alt="SANCTUM Telemetry Log" />
 </div>
 
 <br/>
