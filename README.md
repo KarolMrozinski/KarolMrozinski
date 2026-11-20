@@ -34,15 +34,6 @@
       </ul>
     </td>
  <td width="52%" style="vertical-align: top;">
-      <p>Software Engineer and Security Analyst focused on low-level systems engineering, hardware description, offensive security, threat intelligence (CTI), and defensive AI architectures.</p>
-      <ul>
-        <li>🛡️ <b>Core Domains:</b> Purple Team Operations, Threat Intelligence, Systems Programming, eBPF Telemetry.</li>
-        <li>⚡ <b>Engineering Philosophy:</b> High assurance, zero-trust architectures, local-first CTI, and formal verification.</li>
-        <li>🎓 <b>Academic Track:</b> Double degree studies in Software Engineering & Internal Security.</li>
-        <li>🏆 <b>Distinctions:</b> Laureate and finalist in NASA, NASK, CISPA, and Consult IT cybersecurity challenges.</li>
-      </ul>
-    </td>
-    <td width="48%" align="center" style="vertical-align: middle;">
       <!-- Animowany pierścień wykresu kołowego z obrotem w CSS -->
       <svg width="280" height="200" viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg" style="background: #0f172a; border-radius: 8px;">
         <style>
