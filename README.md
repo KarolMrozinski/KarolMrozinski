@@ -58,7 +58,6 @@
             fill: #cbd5e1;
           }
         </style>
-
         <!-- Wykres pierścieniowy z animacją obrotu -->
         <g class="donut-ring">
           <!-- Rust (35%) -> Gold #CEA75D -->
@@ -72,26 +71,20 @@
           <!-- VHDL (10%) -> Purple #5C2D91 -->
           <circle cx="90" cy="100" r="55" fill="none" stroke="#5C2D91" stroke-dasharray="35 310" stroke-dashoffset="-323" stroke-width="14" />
         </g>
-
         <!-- Statyczny środek i status -->
         <circle cx="90" cy="100" r="43" fill="#0f172a" />
         <circle class="status-dot" cx="90" cy="92" r="4" fill="#38BDF8" />
         <text x="90" y="112" text-anchor="middle" font-family="'Fira Code', monospace" font-size="9" fill="#94a3b8" letter-spacing="1">STACK</text>
-
         <!-- Legenda w stylu Claude Code / Tech UI -->
         <g transform="translate(175, 45)">
           <rect x="0" y="0" width="8" height="8" rx="2" fill="#CEA75D" />
-          <text x="15" y="8" class="legend-text">Rust</text>
-          
+          <text x="15" y="8" class="legend-text">Rust</text>          
           <rect x="0" y="24" width="8" height="8" rx="2" fill="#00599C" />
-          <text x="15" y="32" class="legend-text">C++23</text>
-          
+          <text x="15" y="32" class="legend-text">C++23</text>          
           <rect x="0" y="48" width="8" height="8" rx="2" fill="#1D63ED" />
-          <text x="15" y="56" class="legend-text">eBPF</text>
-          
+          <text x="15" y="56" class="legend-text">eBPF</text>          
           <rect x="0" y="72" width="8" height="8" rx="2" fill="#38BDF8" />
-          <text x="15" y="80" class="legend-text">Ada/SPARK</text>
-          
+          <text x="15" y="80" class="legend-text">Ada/SPARK</text>          
           <rect x="0" y="96" width="8" height="8" rx="2" fill="#5C2D91" />
           <text x="15" y="104" class="legend-text">VHDL</text>
         </g>
