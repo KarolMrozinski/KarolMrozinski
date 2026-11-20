@@ -25,11 +25,9 @@
 <table width="100%" style="border-collapse: stroke; border: none;">
   <tr>
     <td width="50%" align="center" style="vertical-align: top; padding-right: 8px;">      
-      <!-- Karta Bio SVG podpięta bezpośrednim linkiem RAW -->
-      <img src="https://raw.githubusercontent.com/KarolMrozinski/KarolMrozinski/main/bio-card.svg" width="100%" alt="Architect Profile Bio" />
+      <img src="https://github.com/KarolMrozinski/KarolMrozinski/blob/main/bio-card.svg?raw=true" width="100%" alt="Architect Profile Bio" />
     </td>   
     <td width="50%" align="center" style="vertical-align: top; padding-left: 8px;">
-      <!-- Animowany wykres pierścieniowy telemetryczny SVG -->
       <img src="./stack-chart.svg" width="100%" alt="Core Engineering Focus Telemetry" />
     </td>
   </tr>
@@ -44,9 +42,8 @@
 
 <br/>
 
-<!-- Terminal Logów CTI SVG podpięty bezpośrednim linkiem RAW -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/KarolMrozinski/KarolMrozinski/main/terminal-logs.svg" width="100%" alt="SANCTUM CTI Kernel Telemetry" />
+  <img src="https://github.com/KarolMrozinski/KarolMrozinski/blob/main/terminal-logs.svg?raw=true" width="100%" alt="SANCTUM CTI Kernel Telemetry" />
 </div>
 
 <br/>
