@@ -43,19 +43,15 @@
 
 ### 🛡️ Featured System: SANCTUM SUITE `[Enterprise / Closed-Source]`
 
-> **High-Assurance Security Orchestration Platform**
+> **High-Assurance Security Orchestration Platform**  
 > Enables automated threat ingestion, cryptographic validation, and telemetry-driven risk assessment across heterogeneous enterprise environments.
 
-<details open>
-  <summary><b>Core Capabilities & Architectural Telemetry</b></summary>
-  <br/>
-  <ul>
-    <li><b>Threat Ingestion Pipeline:</b> A modular event processing engine ingests structured and unstructured data from SIEMs, EDRs, and network sensors through secure RESTful APIs with end-to-end encryption. All events are cryptographically signed using a hybrid signature scheme (Ed25519 + RSA-4096), ensuring provenance and integrity at the source.</li>
-    <li><b>Cryptographic Identity & Access Control:</b> Implements a distributed identity management system based on zero-knowledge proofs for authentication, where users prove their authorization without exposing credentials. Role-based access control is enforced using attribute-based encryption (ABE) that allows fine-grained data access policies defined as logical expressions over user attributes and resource tags.</li>
-    <li><b>Risk Graph Analysis Engine:</b> A real-time graph processing engine analyzes security events as nodes in a knowledge graph, applying temporal logic rules to detect anomalies and infer threat patterns. The system builds probabilistic causal relationships between entities using Bayesian networks and applies machine learning models trained on historical incident data for predictive risk scoring.</li>
-    <li><b>Deployment Integrity & Compliance Framework:</b> Enforces enterprise-grade software supply chain integrity through hardware-backed attestation of deployment artifacts and a continuous validation loop that checks cryptographic signatures against trusted keys stored in secure enclaves. The system generates audit trails with cryptographically verifiable timestamps to support compliance auditing across regulatory domains such as SOC 2, ISO 27001, and NIST CSF.</li>
-  </ul>
-</details>
+| Core Engine & Feature | Technical Spec & Architecture |
+| :--- | :--- |
+| ⚡ **Threat Ingestion Pipeline** | Event processing engine for SIEM/EDR/network data via RESTful APIs with end-to-end encryption. Hybrid signature scheme (**Ed25519 + RSA-4096**) guarantees data provenance and source integrity. |
+| 🔐 **Cryptographic Zero-Trust** | Distributed identity system leveraging **Zero-Knowledge Proofs (ZK-Proofs)** for zero-credential auth. Fine-grained Access Control enforced via **Attribute-Based Encryption (ABE)** logic rules. |
+| 📊 **Risk Graph Analysis** | Real-time temporal graph processing engine mapping threat vectors. Computes probabilistic entity relationships using **Bayesian Networks** & ML-driven predictive risk scoring. |
+| ⚙️ **Deployment & Compliance** | Hardware-backed supply chain attestation with continuous signature validation via **Secure Enclaves**. Timestamped audit trails aligned with **SOC 2, ISO 27001, and NIST CSF**. |
 
 <br/>
 
