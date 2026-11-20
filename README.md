@@ -1,6 +1,7 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=200&section=header&text=Karol%20Mroziński&fontSize=42&fontColor=ffffff&animation=fadeIn" width="100%" />
+<!-- Nagłówek SVG ze zwykłym 'n' w nazwisku (Karol Mrozinski) -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=200&section=header&text=Karol%20Mrozinski&fontSize=42&fontColor=ffffff&animation=fadeIn" width="100%" />
 
 ### 🛠️ Software Engineer & Security Analyst
 
