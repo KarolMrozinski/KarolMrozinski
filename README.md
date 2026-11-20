@@ -45,7 +45,7 @@
 
 <!-- Terminal Logów CTI SVG (terminal-logs.svg) -->
 <div align="center">
-  <img src="./terminal-logs.svg" width="100%" alt="SANCTUM CTI Kernel Telemetry" />
+  <img src="https://raw.githubusercontent.com/TWOJ_NICK/NAZWA_REPO/main/terminal-logs.svg" width="100%" alt="SANCTUM CTI Kernel Telemetry" />
 </div>
 
 <br/>
