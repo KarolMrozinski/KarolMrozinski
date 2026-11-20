@@ -22,19 +22,21 @@
 
 ### 🌌 Executive Summary
 
-<table>
+<table width="100%">
   <tr>
-    <td width="50%" style="vertical-align: top;">
-      <p>Software Engineer and Security Analyst focused on low-level systems engineering, hardware description, offensive security, threat intelligence (CTI), and defensive AI architectures.</p>
-      <ul>
-        <li>🛡️ <b>Core Domains:</b> Purple Team Operations, Threat Intelligence, Systems Programming, eBPF Telemetry.</li>
-        <li>⚡ <b>Engineering Philosophy:</b> High assurance, zero-trust architectures, local-first CTI, and formal verification.</li>
-        <li>🎓 <b>Academic Track:</b> Double degree studies in Software Engineering & Internal Security.</li>
-        <li>🏆 <b>Distinctions:</b> Laureate and finalist in NASA, NASK, CISPA, and Consult IT cybersecurity challenges.</li>
+    <td width="50%" style="vertical-align: top; background: #0f172a; border: 1px solid #1e293b; border-radius: 8px; padding: 16px;">
+      <p style="font-family: 'Fira Code', monospace; font-size: 13px; color: #cbd5e1; margin-top: 0;">
+        Software Engineer and Security Analyst focused on low-level systems engineering, hardware description, offensive security, threat intelligence (CTI), and defensive AI architectures.
+      </p>
+      <hr stroke="#1e293b" style="border: 0; border-top: 1px solid #1e293b; margin: 12px 0;" />
+      <ul style="list-style: none; padding-left: 0; margin-bottom: 0; font-family: 'Fira Code', monospace; font-size: 12px; color: #94a3b8;">
+        <li style="margin-bottom: 8px;">🛡️ <b>Core Domains:</b> <span style="color: #38bdf8;">Purple Team, CTI, Systems Prog, eBPF</span></li>
+        <li style="margin-bottom: 8px;">⚡ <b>Philosophy:</b> <span style="color: #cea75d;">High-Assurance, Zero-Trust, Formal Verification</span></li>
+        <li style="margin-bottom: 8px;">🎓 <b>Academic Track:</b> Double Degree (Software Eng &amp; Internal Sec)</li>
+        <li>🏆 <b>Distinctions:</b> NASA Space Apps, NASK, CISPA Champs Finalist</li>
       </ul>
     </td>
-    <td width="50%" align="center" style="vertical-align: middle;">
-      <!-- Odwołanie do uaktualnionego, dwu-pierścieniowego SVG z efektem glow -->
+    <td width="50%" align="center" style="vertical-align: middle; padding-left: 10px;">
       <img src="./stack-chart.svg" width="100%" alt="Core Engineering Focus" />
     </td>
   </tr>
