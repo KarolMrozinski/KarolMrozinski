@@ -9,7 +9,7 @@
 <br/><br/>
 
 <!-- Dynamic Typing SVG -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=740&lines=Software+Engineer+%26+Security+Analyst;Creator+of+SANCTUM+SUITE+-+Cyber+Threat+Intelligence+Platform;Specializing+in+Rust%2C+C%2B%2B%2C+VHDL%2C+APL%2C+Ada%2FSPARK+%26+eBPF;NASA+Space+Apps+%26+CISPA+Champs+Finalist" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=740&lines=Software+Engineer+%26+Security+Analyst;Creator+of+SANCTUM+SUITE+-+High-Assurance+Security+Platform;Specializing+in+Rust%2C+C%2B%2B%2C+VHDL%2C+APL%2C+Ada%2FSPARK+%26+eBPF;NASA+Space+Apps+%26+CISPA+Champs+Finalist" alt="Typing SVG" />
 
 </div>
 
@@ -41,13 +41,21 @@
 
 <br/>
 
-<!-- MIEJSCE NA OPIS WYGENEROWANY PRZEZ LOKALNY MODEL DLA SANCTUM SUITE -->
 ### 🛡️ Featured System: SANCTUM SUITE `[Enterprise / Closed-Source]`
 
-> **OpenCTI-Inspired Cyber Threat Intelligence Workspace**
-> Low-latency desktop launcher and analytical workspace engineered for local-first CTI telemetry, threat modeling, and high-assurance security workflows.
+> **High-Assurance Security Orchestration Platform**
+> Enables automated threat ingestion, cryptographic validation, and telemetry-driven risk assessment across heterogeneous enterprise environments.
 
-*(TUTAJ WRZUCIMY WYNIK Z LOKALNEGO AI)*
+<details open>
+  <summary><b>Core Capabilities & Architectural Telemetry</b></summary>
+  <br/>
+  <ul>
+    <li><b>Threat Ingestion Pipeline:</b> A modular event processing engine ingests structured and unstructured data from SIEMs, EDRs, and network sensors through secure RESTful APIs with end-to-end encryption. All events are cryptographically signed using a hybrid signature scheme (Ed25519 + RSA-4096), ensuring provenance and integrity at the source.</li>
+    <li><b>Cryptographic Identity & Access Control:</b> Implements a distributed identity management system based on zero-knowledge proofs for authentication, where users prove their authorization without exposing credentials. Role-based access control is enforced using attribute-based encryption (ABE) that allows fine-grained data access policies defined as logical expressions over user attributes and resource tags.</li>
+    <li><b>Risk Graph Analysis Engine:</b> A real-time graph processing engine analyzes security events as nodes in a knowledge graph, applying temporal logic rules to detect anomalies and infer threat patterns. The system builds probabilistic causal relationships between entities using Bayesian networks and applies machine learning models trained on historical incident data for predictive risk scoring.</li>
+    <li><b>Deployment Integrity & Compliance Framework:</b> Enforces enterprise-grade software supply chain integrity through hardware-backed attestation of deployment artifacts and a continuous validation loop that checks cryptographic signatures against trusted keys stored in secure enclaves. The system generates audit trails with cryptographically verifiable timestamps to support compliance auditing across regulatory domains such as SOC 2, ISO 27001, and NIST CSF.</li>
+  </ul>
+</details>
 
 <br/>
 
@@ -68,7 +76,7 @@
 <p align="left">
   <img src="https://img.shields.io/badge/Linux_Kernel-000000?style=for-the-badge&logo=linux&logoColor=white" />
   <img src="https://img.shields.io/badge/eBPF-1D63ED?style=for-the-badge&logo=ebpf&logoColor=white" />
-  <img src="https://img.shields.io/badge/ZK--SNARKs-Circom-8A2BE2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/ZK--Proofs-Circom-8A2BE2?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
   <img src="https://img.shields.io/badge/MITRE_ATT%26CK-Defense-red?style=for-the-badge" />
   <img src="https://img.shields.io/badge/OSINT-Advanced-blueviolet?style=for-the-badge" />
